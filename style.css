@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(207, 226, 253);
+}
+header{
+    background-image: url('./imgs/banner4.jpg');
+    background-size:contain;
+    height: 250px;
+    color:rgb(14, 13, 13);
+    padding-top: 50px;
+}
+header div{
+    background-color: white;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+header h2{
+    text-align: center;
+    font-family: Helvetica,Arial, sans-serif;
+}
+header h1{
+    text-align: center;
+    Font-family: Dejavu Sans, Arial, Verdana, sans-serif
+}
+header .rvoe{
+    text-align: right;
+    margin: 0%;
+}
+.objetivo{
+    background-color: white;
+}
+.objetivo h2, .perfilCarrera h2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    color: black;
+}
+.objetivo .texto{
+    color: black;
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 3%;
+    text-align: justify;
+    line-height: 1.4;
+    margin-top: 40px;
+}
+.objetivo .p{
+    text-align: justify;
+}
+.perfilCarrera{
+    background-color: #092746;
+}
+.perfilCarrera h2{
+    color: white;
+}
+.perfilCarrera .texto{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 3%;
+    text-align: justify;
+    line-height: 1.4;
+    margin-top: 40px;
+    color: white;
+}
+.perfilEgreso{
+    background-color: #afbdce;
+}
+.perfilEgreso .texto{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 3%;
+    text-align: justify;
+    line-height: 1.4;
+    margin-top: 40px;
+}
+.descarga{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.descarga button:hover{
+    background-color: #0056b3;
+}
+.boton-descarga{
+    background-color: #0d3257;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 4%;
+}
+.formulario{
+    width: 550px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(0,0,0,0.1);
+    align-items: center;
+    height: 75vh;
+
+}
+.formulario h2, p{
+    text-align: center;
+}
+.cuestionario{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+label{
+    display:block;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.cuestionario button{
+    width: 100%;
+    padding: 10px;
+    background-color: #092746;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.cuestionario button{
+    margin-top: 4%;
+}
+.cuestionario button:hover{
+    background-color: #0056b3;
+}
+footer {
+    background-color: #0e3763;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin:3px;
+    height: 30px;
+}
